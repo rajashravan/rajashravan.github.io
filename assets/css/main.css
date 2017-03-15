@@ -3132,18 +3132,23 @@
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
+				
+				-moz-transition: opacity 1s ease;
+				-webkit-transition: opacity 1s ease;
+				-ms-transition: opacity 1s ease;
+				transition: opacity 1s ease;
 				-moz-transition-delay: 0.5s;
 				-webkit-transition-delay: 0.5s;
 				-ms-transition-delay: 0.5s;
+
 				transition-delay: 0.5s;
+
 				opacity: 1;
+				
 			}
 
 			#header.alt .logo {
+				
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
 				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
@@ -3152,6 +3157,7 @@
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
+				
 				display: block;
 				margin: 0 0 1.5em 0;
 			}
@@ -3242,19 +3248,22 @@
 		}
 
 		body.is-loading #header.alt .logo {
+			/* removed spin animation
 			-moz-transform: scale(0.8) rotate(-30deg);
 			-webkit-transform: scale(0.8) rotate(-30deg);
 			-ms-transform: scale(0.8) rotate(-30deg);
-			transform: scale(0.8) rotate(-30deg);
+			transform: scale(0.8) rotate(-30deg); */
 		}
 
 /* Nav */
 
 	#nav {
+		/*
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		*/
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
@@ -3801,6 +3810,13 @@
 		width: 64em;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
+	}
+
+	#wrapper.my_blog {
+		width: 60em;
+	}
+	#wrapper.my_blog p {
+		margin: 1.4em 0;
 	}
 
 		@media screen and (max-width: 480px) {
