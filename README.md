@@ -1,4 +1,2 @@
-# rajashravan.github.io
-Personal Website
-
+# rajashravan.com
 My super simple website
